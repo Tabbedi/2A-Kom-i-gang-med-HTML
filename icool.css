@@ -8,6 +8,7 @@ body {
   grid-template-columns: auto, auto, auto;
   background-color: #74718f;
   padding: 10px;
+  text-align: center;
 }
 .grid-item {
   background-color: rgba(221, 172, 248, 0.9);
@@ -18,17 +19,17 @@ body {
   text-align: center;
 }
 .grid-item1 {
-  background-color: rgba(221, 172, 248, 0.9);
+  background-color: rgba(164, 104, 217, 0.9);
+  color: white;
   border: 0px solid rgba(0, 0, 0, 0.8);
   column-gap: 0px;
   padding: 30px;
   font-size: 30px;
   text-align: center;
 }
-.puma.png {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.grid-item2 {
+  background-color: rgba(221, 172, 248, 0.9);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  border-image-width: 200;
+  text-align: center;
 }
-
