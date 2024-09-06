@@ -30,6 +30,8 @@ body {
 .grid-item2 {
   background-color: rgba(221, 172, 248, 0.9);
   border: 0px solid rgba(0, 0, 0, 0.8);
-  border-image-width: 200;
+  column-gap: 0px;
+  padding: 30px;
+  font-size: 23px;
   text-align: center;
 }
