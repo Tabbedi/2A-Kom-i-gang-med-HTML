@@ -6,7 +6,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto, auto, auto;
-  background-color: #74718f;
+  background-color: #f4b4e7;
   padding: 10px;
   text-align: center;
 }
@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 .grid-item1 {
-  background-color: rgba(164, 104, 217, 0.9);
+  background-color: rgba(245, 90, 211, 0.9);
   color: white;
   border: 0px solid rgba(0, 0, 0, 0.8);
   column-gap: 0px;
