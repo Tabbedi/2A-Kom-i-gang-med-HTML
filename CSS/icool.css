@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  
+ 
 
 }
 
@@ -11,6 +11,7 @@ header{
   background-color: black;
   color: white;
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 header h2{
@@ -23,7 +24,7 @@ header{
   justify-content: space-around;
   padding: 20px
 }
-
+  
 nav ul li{
   list-style: none;
   display: inline-block;
@@ -37,10 +38,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
- color: rgb(162, 162, 162);
+ color: rgb(143, 127, 51);
  transition-duration: 0.3s;
-
- padding-top: 1%;
 
 }
  
@@ -48,7 +47,7 @@ body{
   background-color: black;
   background-position-x: center;
   background-repeat: no-repeat;
-  background-image: url(astronaut.png);
+  background-image: url(../Bilder/astronaut.png);
   
 }
 
@@ -69,4 +68,23 @@ body{
   line-height: 200px;
   font-size: 30px;
   color: black;
+}
+  */
+  
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 20px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1, .section2, .section3 {
+  padding: 20px;
+  min-height: 220px;
+  font-size: 60px;
+  margin-left: 15%;
 }
