@@ -22,7 +22,9 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px
+  padding: 20px;
+  max-height:40px;
+  min-height: 40px;
 }
   
 nav ul li{
@@ -38,9 +40,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
- color: rgb(143, 127, 51);
+ color: rgb(203, 178, 54);
  transition-duration: 0.3s;
-
+ font-size: 20px;
 }
  
 body{
@@ -51,25 +53,6 @@ body{
   
 }
 
-/*
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  height: 500px;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: bottom;
-  line-height: 200px;
-  font-size: 30px;
-  color: black;
-}
-  */
   
 
 /* Grid container */
